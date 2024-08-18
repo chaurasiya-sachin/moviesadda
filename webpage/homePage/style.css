@@ -91,6 +91,57 @@ label #btn,label #cancel{
         font-size: 12px;
     }
 }
+/* home section  */
+.home-section{   
+    color: white;
+    font-size: 20px;
+    height: 500px;
+    background-image: url('image/bg-image.jpg');
+}
+* {box-sizing: border-box;}
+/* body {font-family: Verdana, sans-serif;} */
+.mySlides {display: none;}
+img {vertical-align: left;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  padding-top: 50px;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* for mobiles */
 @media (max-width:860px) {
     label #btn{
         display: block;
@@ -122,6 +173,19 @@ label #btn,label #cancel{
     }
     #check:checked ~ label #cancel{
         display: block;
+    } 
+    
+    #check:checked ~ .slideshow-container {
+        display: none;
     }
-
+    .slideshow-container {        
+        padding-top: 30px;
+        margin: 5px;
+    }
+    .dot {
+        height: 5px;
+        width: 5px;
+        margin-top: -50px ;
+    }
 }
+

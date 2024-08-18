@@ -98,6 +98,103 @@ label #btn,label #cancel{
     height: 500px;
     background-image: url('image/bg-image.jpg');
 }
+
+/* hindi section */
+.hindi-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    background-color: rgb(4, 26, 37);
+}
+
+.title{
+    margin: auto;
+    padding: 10px;
+    background-color: red;
+    /* text-align: center; */
+}
+.title:hover{
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    border: none;
+    background-color: white;    
+}
+.image-section{
+    height: 300px;
+    margin: auto;
+    padding: 20px 0;
+}
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 100%;
+    padding: 5px;
+    /* -radius: 25px; */
+  }
+  .column img{
+    border-radius: 10px;
+    height: 300px;
+  }
+
+  .column img:hover{
+    height: 310px;
+    border: 2px solid white;
+  }
+
+/* English section */
+.english-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    background-image: url(image/bg-image.jpg);
+    /* background-color: rgb(4, 26, 37); */
+}
+/* tamil section */
+.tamil-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    /* background-image: url(image/bg-image.jpg); */
+    background-color: rgb(4, 26, 37);
+}
+/* telgu section */
+.telgu-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    background-image: url(image/bg-image.jpg);
+    /* background-color: rgb(4, 26, 37); */
+}
+/* bhojpuri section */
+.bhojpuri-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    /* background-image: url(image/bg-image.jpg); */
+    background-color: rgb(4, 26, 37);
+}
+/* haryanvi section */
+.haryanvi-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    background-image: url(image/bg-image.jpg);
+    /* background-color: rgb(4, 26, 37); */
+}
+/* bengali section */
+.bengali-section {
+    color: white;
+    font-size: 20px;
+    height: 420px;
+    /* background-image: url(image/bg-image.jpg); */
+    background-color: rgb(4, 26, 37);
+}
+/* silder show section */
+
 * {box-sizing: border-box;}
 /* body {font-family: Verdana, sans-serif;} */
 .mySlides {display: none;}
